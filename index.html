@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Nama Digital</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right,rgb(1, 1, 2), #00c6ff);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 350px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solidrgb(4, 5, 5);
+        }
+        .card h1 {
+            font-size: 22px;
+            margin: 15px 0;
+            color: #333;
+        }
+        .card p {
+            color: #666;
+            margin: 5px 0;
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #fff;
+            background:rgb(7, 8, 8);
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .card a:hover {
+            background:rgb(8, 10, 12);
+        }
+        .price-list {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 350px;
+        }
+        .price-list h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .price-list ul {
+            list-style: none;
+            padding: 0;
+        }
+        .price-list ul li {
+            color: #666;
+            margin: 8px 0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://via.placeholder.com/120" alt="Profile Picture">
+        <h1>Galuh Sanjaya Putra</h1>
+        <p>🌐 Web Developer</p>
+        <p>📧 galuhputra@gmail.com</p>
+        <p>📞 +62 857 9854 9574</p>
+        <a href="#">LinkedIn</a>
+        <a href="#">Website</a>
+    </div>
+
+    <div class="price-list">
+        <h2>💳 Harga Kartu Nama Digital</h2>
+        <ul>
+            <li>✅ Basic: $10</li>
+            <li>✅ Premium: $25</li>
+            <li>✅ Custom: $50</li>
+        </ul>
+    </div>
+</body>
+</html>
